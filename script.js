@@ -7,7 +7,7 @@ function sum() {
     var numero2 = parseInt(n2)
     var result = numero1 + numero2
     var resultElement = document.getElementById("result")
-    resultElement.innerText = "sum result: " + result
+    resultElement.innerText = "suma resultado: " + result
     var respuesta = 0
 
 
@@ -27,8 +27,12 @@ function sum() {
     if (result < 10) {
         cell4.innerHTML = "-10";
     } else {
-        cell4.innerHTML = "=10";
+        cell4.innerHTML = "+10";
+
+
+
     }
+
 
 
 
